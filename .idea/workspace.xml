@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="982f5b9a-c2cf-4357-9d98-f2ddedeaeaa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/dto/CommentUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/dto/EssayUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/dto/PermissionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/dto/UsersMessagesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/dto/WebUserPermissionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/CommentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/Essay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/EssayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/MessageExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/PermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/RolePermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/WebUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/WebUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/WebUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/pojo/WebUserRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/ChinaInitial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/IDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/ImageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/QueryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/java/com/hichat/common/util/ReturnResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-common/src/main/resources/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/src/main/java/com/hichat/eureka/HichatEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/HichatMobileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/controller/EssayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/redis/RedisConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/EssayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/HystrixCommentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/HystrixEssayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/HystrixMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/HystrixUserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/WebSocketAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/WebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/WebSocketStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/handler/SingleChatProcesser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/handler/WebSocketProcesser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/handler/WebSocketTextType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/tio/pojo/SingleChatBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/util/ConstantProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/java/com/hichat/mobile/util/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-mobile/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/common/pojo/WebUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/common/pojo/WebUserRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/HichatProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/EssayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/controller/WebUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/EssayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/MessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/WebUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/mapper/WebUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/EssayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/java/com/hichat/provider/service/WebUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/EssayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/MessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/WebUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-provider/src/main/resources/mapper/WebUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/HichatWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/EssayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/controller/WebUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/redis/RedisConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/EssayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixCommentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixEssayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixRoleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixUserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/HystrixWebUserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/service/WebUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/shiro/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/util/CaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/java/com/hichat/web/util/JsonMapperTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/HichatZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/filters/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/filters/HichatZuulZuulFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/redis/JsonMapperTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/redis/RedisConn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/service/HystrixWebUserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/service/WebUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/shiro/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/java/com/hichat/zuul/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hichat-zuul/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lgoXovqgLv0nY1xZ6961GtGqTo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.HichatWebApplication">
+    <configuration name="mybatisgen" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/hichat-provider" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="HichatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hichat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hichat.HichatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HichatEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hichat-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hichat.eureka.HichatEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HichatMobileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hichat-mobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hichat.mobile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hichat.mobile.HichatMobileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HichatProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hichat-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hichat.provider.HichatProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HichatWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hichat-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hichat.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hichat.web.HichatWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HichatZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hichat-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hichat.zuul.HichatZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mybatisgen" />
+      <item itemvalue="Spring Boot.HichatApplication" />
+      <item itemvalue="Spring Boot.HichatEurekaApplication" />
+      <item itemvalue="Spring Boot.HichatProviderApplication" />
+      <item itemvalue="Spring Boot.HichatZuulApplication" />
+      <item itemvalue="Spring Boot.HichatMobileApplication" />
+      <item itemvalue="Spring Boot.HichatWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HichatWebApplication" />
+        <item itemvalue="Spring Boot.HichatMobileApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="982f5b9a-c2cf-4357-9d98-f2ddedeaeaa8" name="Default Changelist" comment="" />
+      <created>1608028137936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608028137936</updated>
+      <workItem from="1608028139703" duration="12887000" />
+      <workItem from="1608081598567" duration="4275000" />
+      <workItem from="1608096801515" duration="768000" />
+      <workItem from="1608114685020" duration="2352000" />
+      <workItem from="1608203423570" duration="9398000" />
+      <workItem from="1608227970142" duration="879000" />
+      <workItem from="1608277094275" duration="10972000" />
+      <workItem from="1608304833355" duration="773000" />
+      <workItem from="1608313283686" duration="682000" />
+      <workItem from="1608361134668" duration="7278000" />
+      <workItem from="1608444521823" duration="766000" />
+      <workItem from="1608469060804" duration="797000" />
+      <workItem from="1608644039636" duration="1306000" />
+      <workItem from="1608719386699" duration="5325000" />
+      <workItem from="1608894148585" duration="1589000" />
+      <workItem from="1608961244619" duration="1093000" />
+      <workItem from="1608985153859" duration="2844000" />
+      <workItem from="1608990005242" duration="39000" />
+      <workItem from="1609067766904" duration="12032000" />
+      <workItem from="1609239302792" duration="15075000" />
+      <workItem from="1609287225236" duration="4396000" />
+      <workItem from="1609330807844" duration="999000" />
+      <workItem from="1609334588056" duration="239000" />
+      <workItem from="1626615147589" duration="4987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Notifications" timestamp="1626618441888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1626618441888" />
+    <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog" timestamp="1626618399000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626618399000" />
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.1.center" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.1.left" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+    <state width="1877" height="280" key="GridCell.Tab.1.right" timestamp="1626617316698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626617316698" />
+  </component>
+</project>

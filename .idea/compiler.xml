@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hichat-common" />
+        <module name="hichat" />
+        <module name="hichat-provider" />
+        <module name="hichat-zuul" />
+        <module name="hichat-eureka" />
+        <module name="hichat-web" />
+        <module name="hichat-mobile" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="hichat" target="11" />
+      <module name="hichat-common" target="6" />
+      <module name="hichat-eureka" target="1.8" />
+      <module name="hichat-mobile" target="1.8" />
+      <module name="hichat-provider" target="1.8" />
+      <module name="hichat-web" target="1.8" />
+      <module name="hichat-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hichat" options="-parameters" />
+    </option>
+  </component>
+</project>

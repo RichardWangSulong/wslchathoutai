@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hichat.iml" filepath="$PROJECT_DIR$/hichat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-common/hichat-common.iml" filepath="$PROJECT_DIR$/hichat-common/hichat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-eureka/hichat-eureka.iml" filepath="$PROJECT_DIR$/hichat-eureka/hichat-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-mobile/hichat-mobile.iml" filepath="$PROJECT_DIR$/hichat-mobile/hichat-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-provider/hichat-provider.iml" filepath="$PROJECT_DIR$/hichat-provider/hichat-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-web/hichat-web.iml" filepath="$PROJECT_DIR$/hichat-web/hichat-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hichat-zuul/hichat-zuul.iml" filepath="$PROJECT_DIR$/hichat-zuul/hichat-zuul.iml" />
+    </modules>
+  </component>
+</project>
